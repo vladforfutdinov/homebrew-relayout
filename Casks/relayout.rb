@@ -1,6 +1,6 @@
 cask "relayout" do
-  version "1.2.13"
-  sha256 "8939a91e854e3788d0847fd5bde80e7e46a2888f02eca505c43d2ca260d157ab"
+  version "1.2.14"
+  sha256 "2abb707c1f781a6eb1bed662debefdf7919cb60922a040b3007438e1860ccdcb"
 
   url "https://github.com/vladforfutdinov/reLayout/releases/download/v#{version}/reLayout.dmg",
       verified: "github.com/vladforfutdinov/reLayout/"
@@ -14,6 +14,6 @@ cask "relayout" do
   app "ReLayout.app"
 
   zap trash: [
-    "~/Library/Preferences/com.vlad.relayout.plist",
+    "~/Library/Preferences/com.vladforfutdinov.relayout.plist",
   ]
 end
