@@ -1,6 +1,6 @@
 cask "relayout" do
-  version "1.2.16"
-  sha256 "4876873b62d22b4a90230bf7d8a064aafaa8d578586aa64f97267d0c9173091f"
+  version "1.2.17"
+  sha256 "481318a90aa00bdc0426e97214292e94e170e216f2914ef925b1fe38a89db7de"
 
   url "https://github.com/vladforfutdinov/reLayout/releases/download/v#{version}/reLayout.dmg"
   name "reLayout"
